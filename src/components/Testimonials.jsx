@@ -90,7 +90,7 @@ const Testimonials = () => {
       id: 1,
       name: "Chandra Prakash",
       role: "Sitamarhi Bihar",
-      content: "The blinds we got from HighTech have completely transformed our living room. The quality is exceptional and the service was outstanding. The installation team was professional and completed the work ahead of schedule.",
+      content: "The blinds we got from Windows Strory have completely transformed our living room. The quality is exceptional and the service was outstanding. The installation team was professional and completed the work ahead of schedule.",
       rating: 5,
       image: testimonial1
     },
@@ -98,7 +98,7 @@ const Testimonials = () => {
       id: 2,
       name: "Abhishek Kumar",
       role: "Aurangabad Bihar",
-      content: "I regularly recommend HighTech Window Blinds to my clients. Their products are stylish, durable, and offer excellent value for money. The customization options allow me to create the perfect look for any space.",
+      content: "I regularly recommend  Window Story Blinds to my clients. Their products are stylish, durable, and offer excellent value for money. The customization options allow me to create the perfect look for any space.",
       rating: 5,
       image: testimonial2
     },
@@ -106,7 +106,7 @@ const Testimonials = () => {
       id: 3,
       name: "Abhishek Charan",
       role: "Jaipur Rajasthan",
-      content: "We installed HighTech blinds in our entire office building. They look professional, function perfectly, and were installed on time. The energy savings from the thermal insulation have been noticeable on our electricity bills.",
+      content: "We installed Window Story in our entire office building. They look professional, function perfectly, and were installed on time. The energy savings from the thermal insulation have been noticeable on our electricity bills.",
       rating: 4,
       image: testimonial3
     },
@@ -164,7 +164,7 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials" className="py-20 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
-      {/* Decorative elements */}
+      
       <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-r from-blue-100 to-purple-100 opacity-20 blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 rounded-full bg-blue-200 opacity-10 blur-3xl"></div>
       
@@ -187,7 +187,7 @@ const Testimonials = () => {
           </p>
         </motion.div>
 
-        {/* Desktop Grid View (3 columns) */}
+        
         <div className="hidden lg:grid grid-cols-3 gap-8">
           {testimonials.slice(0, 3).map((testimonial) => (
             <motion.div 
@@ -223,7 +223,7 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Mobile Carousel */}
+        
         <div className="lg:hidden relative">
           <AnimatePresence custom={direction} initial={false}>
             <motion.div
@@ -259,7 +259,7 @@ const Testimonials = () => {
             </motion.div>
           </AnimatePresence>
 
-          {/* Navigation Arrows */}
+          
           <button 
             onClick={prevTestimonial}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white p-2 rounded-full shadow-md hover:bg-gray-50 transition-colors"
@@ -275,7 +275,7 @@ const Testimonials = () => {
             <FiChevronRight className="w-5 h-5 text-gray-700" />
           </button>
 
-          {/* Indicators */}
+          
           <div className="flex justify-center mt-8 space-x-2">
             {testimonials.map((_, index) => (
               <button

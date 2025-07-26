@@ -177,11 +177,11 @@ const Contact = () => {
               <div className="flex flex-col items-center space-y-2">
                 <div className="flex items-center space-x-4 text-white text-xl font-bold">
                   <Phone className="w-6 h-6" />
-                  <span>+91-9220377272 | +91-9990587916</span>
+                  <span>+91-9999999999</span>
                 </div>
                 <div className="flex items-center space-x-4 text-white text-lg">
                   <Mail className="w-5 h-5" />
-                  <span>order@hightechwindowblinds.in</span>
+                  <span>order@windows.in</span>
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ const Contact = () => {
                   <h3 className="font-bold text-lg">Address</h3>
                 </div>
                 <p className="text-gray-200">123 Business Avenue,</p>
-                <p className="text-gray-200">Mumbai, Maharashtra - 400001</p>
+                <p className="text-gray-200">Delhi - 400001</p>
               </div>
 
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
