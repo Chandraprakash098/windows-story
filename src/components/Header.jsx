@@ -69,7 +69,8 @@
 import React, { useState, useEffect } from 'react';
 import { FiMenu, FiX, FiPhone, FiMail, FiChevronDown, FiSearch, FiShoppingCart } from 'react-icons/fi';
 import { motion, AnimatePresence } from 'framer-motion';
-import logo from '../assets/images/logo.svg';
+// import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/window-logo.jpeg'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -133,7 +134,12 @@ const Header = () => {
               transition={{ duration: 0.5 }}
               className="flex items-center"
             >
-              <img src={logo} alt="HighTech Blinds" className="h-12 w-auto" />
+              {/* <img src={logo} alt="HighTech Blinds" className="h-16 w-auto"  /> */}
+              <img 
+                src={logo} 
+                alt="HighTech Blinds" 
+                className="h-12 w-auto transition-transform duration-300 hover:scale-110" 
+              />
               <span className="ml-3 text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Windows Story
               </span>

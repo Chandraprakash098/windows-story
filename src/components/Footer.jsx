@@ -395,8 +395,8 @@ const Footer = () => {
                   <FiMapPin size={18} className="text-pink-400" />
                 </div>
                 <div>
-                  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">123 Business Avenue,</p>
-                  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">Delhi - 400001</p>
+                  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">A-30, Sector-69</p>
+                  <p className="text-gray-400 group-hover:text-white transition-colors duration-300">Noida, 201301(UP)</p>
                 </div>
               </div>
               
@@ -405,7 +405,7 @@ const Footer = () => {
                   <FiPhone size={18} className="text-blue-400" />
                 </div>
                 <a href="tel:+919876543210" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  +91 9999999999
+                  +91 9204444065
                 </a>
               </div>
               
@@ -414,7 +414,7 @@ const Footer = () => {
                   <FiMail size={18} className="text-purple-400" />
                 </div>
                 <a href="mailto:info@hightechwindowblinds.in" className="text-gray-400 hover:text-white transition-colors duration-300">
-                  info@window.in
+                  abhishek824143@gmail.com
                 </a>
               </div>
             </div>

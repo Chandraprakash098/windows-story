@@ -177,11 +177,11 @@ const Contact = () => {
               <div className="flex flex-col items-center space-y-2">
                 <div className="flex items-center space-x-4 text-white text-xl font-bold">
                   <Phone className="w-6 h-6" />
-                  <span>+91-9999999999</span>
+                  <span>+91-9204444065</span>
                 </div>
                 <div className="flex items-center space-x-4 text-white text-lg">
                   <Mail className="w-5 h-5" />
-                  <span>order@windows.in</span>
+                  <span>abhishek824143@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -193,8 +193,8 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-green-400 mr-3" />
                   <h3 className="font-bold text-lg">Address</h3>
                 </div>
-                <p className="text-gray-200">123 Business Avenue,</p>
-                <p className="text-gray-200">Delhi - 400001</p>
+                <p className="text-gray-200">A-30, Sector-69</p>
+                <p className="text-gray-200"> Noida, 201301(UP)</p>
               </div>
 
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">

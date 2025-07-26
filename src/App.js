@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Loader from './components/Loader';
 import SEO from './components/SEO';
 import AboutUs from './components/AboutUs';
+import WhatsAppChat from './components/WhatsAppChat';
 
 function App() {
 
@@ -51,6 +52,8 @@ function App() {
     <Contact />
   </section>
       <Footer />
+
+      <WhatsAppChat/>
     </div>
   );
 }
