@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  tools {
+    nodejs "Node 20.18.0"
+  }
   stages {
     stage('checkout') {
       steps {
@@ -19,11 +22,11 @@ pipeline {
       }
     }
 
-    stage('Deploy') {
-      steps {
-        sh 'scp -r build/* user@your-server:/var/www/html/'
-      }
-    }
+    // stage('Deploy') {
+    //   steps {
+    //     sh 'scp -r build/* user@your-server:/var/www/html/'
+    //   }
+    // }
 
   }
 }
